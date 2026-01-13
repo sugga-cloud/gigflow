@@ -76,3 +76,6 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_high_entropy_secret_key
 PORT=5000
 FRONTEND_URL=http://localhost:5173
+
+
+Live Deployement : https://gigflow-7apm.onrender.com
