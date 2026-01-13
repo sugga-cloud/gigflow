@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = '/api/auth';
+const API_URL = 'https://gigflow-backend-4av3.onrender.com/api/auth';
 
 // Get user from localStorage
 const userFromStorage = localStorage.getItem('user')
