@@ -22,7 +22,7 @@ const httpServer = createServer(app);
 // Socket.IO setup with CORS
 const io = new Server(httpServer, {
   cors: {
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+    origin: process.env.FRONTEND_URL || 'https://gigflow-7apm.onrender.com/',
     methods: ['GET', 'POST'],
     credentials: true,
   },
@@ -31,7 +31,7 @@ const io = new Server(httpServer, {
 // Middleware
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+    origin: process.env.FRONTEND_URL || 'https://gigflow-7apm.onrender.com/',
     credentials: true,
   })
 );
